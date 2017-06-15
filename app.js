@@ -14,6 +14,7 @@ var MongoStore = require('connect-mongo')(session);
 
 var app = express();
 
+
 // view engine setup
 app.set('views', path.join(__dirname, 'view'));
 app.set('view engine', 'ejs');
